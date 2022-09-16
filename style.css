@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Clases reutilizadas en las paginas */
+.titulo-general {
+    background-color: antiquewhite;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.titulo-general h1 {
+    color: #816C61;
+    font-size: 2rem;
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+.subtitulo-paginas {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+.texto-paginas {
+    color: black;
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+}
+
+.boton {
+    font-family: 'Mulish', sans-serif;
+    width: auto;
+    padding: 3px 20px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.boton:hover {
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: 2px 1px 8px rgb(172, 172, 172);
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    height: 80px;
+    background-color: #E6E8E6;
+    position: sticky;
+    top: 0px;
+}
+
+.logomenu {
+    height: 80%;
+    margin: 0.5% 0 0 2%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-opciones {
+    width: 50%;
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: auto;
+}
+
+.menu-opciones a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-opciones li {
+    display: inline-block;
+    margin: 2%;
+}
+
+/*FIN MENU */
+
+
+/* HEADER */
+.contenedor-imagen-header {
+    height: 30vw;
+    background-image: url(./assets/Portada\ sillon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+    font-family: 'Mulish', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 1000;
+    color: #816C61;
+    padding-top: 150px;
+    padding-right: 50px;
+}
+
+/* fin HEADER */
+
+/* bloque 1 */
+.bloque1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    box-shadow: 10px;
+    background-color: antiquewhite;
+}
+
+.tarjeta__img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.tarjeta__titulo {
+    font-family: Arial, 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.tarjeta__boton {
+    display: flex;
+    margin: auto;
+    width: 40%;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    justify-content: center;
+}
+
+/* BLQOE 2 / SECCION 2 */
+.nota {
+    height: 400px;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nota__img {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.nota__contenedortexto {
+    width: 100%;
+    height: 50%;
+    padding-left: 50px;
+}
+
+.nota__titulo {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #816C61;
+    text-transform: uppercase;
+}
+
+.nota__texto {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: black;
+}
+
+.pie {
+    background-color: #816C61;
+    height: 50px;
+}
+
+.pie__texto {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* CONTACTO */
+.formulario {
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.formulario__imputs {
+    padding: 7px;
+    background-color: #f8f8f8;
+    border: 0.1px solid #d1d1d1;
+    font-size: 1em;
+    width: 20%;
+    height: 30px;
+}
+
+.formulario__select {
+    background-color: #ffffff;
+    border: 0.1px solid #d1d1d1;
+    width: 15%;
+    height: 30px;
+}
+
+.formulario__textarea {
+    background-color: #f8f8f8;
+    border: 0.1px solid #d1d1d1;
+    font-size: 1em;
+}
+
+/* NOVEDADES veeeer esto porque va con boostrp????*/
+.nota__destacadas{
+    background-color:#d1d1d1;
+}
+.nota__copete {
+    color: black;
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.nota1__img {
+    border: 1px solid black;
+}
+
+.nota1__img img {
+    width: 20%;
+}
+
+/* TIENDA PAGE 5 */
+.contenedor-tienda {
+    display: flex;
+    justify-content: space-evenly;
+}
