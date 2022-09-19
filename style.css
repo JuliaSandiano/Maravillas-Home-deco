@@ -223,6 +223,7 @@ transition: .5s;
 .nosotros__integrantes{
     width: 25%;
     height: auto;
+    margin-top: 5%;
 }
 .nosotros__nombre{
     color: #000000;
@@ -239,10 +240,7 @@ transition: .5s;
 }
 
 /* TIENDA PAGE 5 */
-.contenedor-tienda {
-    display: flex;
-    justify-content: space-evenly;
-}
+
 
 
 @media (max-width: 576px){
