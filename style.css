@@ -111,7 +111,7 @@
     justify-content: center;
 }
 
-/* BLQOE 2 / SECCION 2 */
+/* BLOQUE 2 / SECCION 2 */
 .nota{
 margin: 10% 0;
 }
@@ -180,25 +180,62 @@ margin: 10% 0;
     font-size: 1em;
 }
 
-/* NOVEDADES veeeer esto porque va con boostrp????*/
-.nota__destacadas {
-    background-color: #d1d1d1;
+/* CLIENTES*/
+.container__img{
+    width: 600px;
 }
-
-.nota__copete {
-    color: black;
+.container__img_principal {
+    width: 630px;
+    height: 600px;
+    object-fit: cover;
+}
+.container__img1{
+    width: 545px;
+    height:300px;
+    object-fit: cover;
+}
+.container__img2{
+    width: 270px;
+    height:300px;
+    object-fit: cover;
+}
+.container__img img:hover{
+scale: 1.05;
+transition: .5s;
+}
+.container__carrousel{
+    
+    width: 45%;
+}
+.container__imagenes__carrousel{
+    width: 700px;
+    display: flex;
+    overflow-y: auto;
+    margin: 10px;
+}
+.container__carrousel__img1{
+    width: 200%;
+    height:300px;
+    object-fit: cover;
+   
+}
+/* Nosotros */
+.nosotros__integrantes{
+    width: 25%;
+    height: auto;
+}
+.nosotros__nombre{
+    color: #000000;
     font-size: 1rem;
     font-family: 'Mulish', sans-serif;
-    font-weight: 700;
-    font-style: italic;
+    font-weight: 800;
+    margin: auto;
 }
-
-.nota1__img {
-    border: 1px solid black;
+.nosotros__integrantes:hover{
+    opacity: .7;
 }
-
-.nota1__img img {
-    width: 20%;
+.nosotros__imagen{
+    border-radius: 50%;
 }
 
 /* TIENDA PAGE 5 */
