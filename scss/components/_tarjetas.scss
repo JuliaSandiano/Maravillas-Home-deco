@@ -1,0 +1,29 @@
+.tarjeta {
+    width: 300px;
+    height: 300px;
+    margin: 40px 5px 0 5px;
+    box-shadow: 10px;
+    background-color: antiquewhite;
+&__img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+&__titulo{
+    font-family: Arial, 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: center;
+}
+&__boton{
+    display: flex;
+    margin: auto;
+    width: 40%;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    justify-content: center;
+}
+}

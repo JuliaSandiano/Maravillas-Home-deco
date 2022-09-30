@@ -1,41 +1,328 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Clases reutilizadas en las paginas */
 .titulo-general {
-    background-color: antiquewhite;
-    text-align: center;
-    width: 100%;
-    height: auto;
+  background-color: antiquewhite;
+  text-align: center;
+  width: 100%;
+  height: auto;
 }
-
 .titulo-general h1 {
-    color: #816C61;
-    font-size: 2rem;
-    font-family: 'Mulish', sans-serif;
-    text-transform: uppercase;
-    font-weight: 800;
-
+  color: #816C61;
+  font-size: 2rem;
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .subtitulo-paginas {
-    color: black;
-    font-size: 1.5rem;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 600;
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
 }
 
 .texto-paginas {
-    color: black;
-    font-size: 1rem;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 200;
+  color: black;
+  font-size: 1rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 200;
+}
+
+/* header */
+.menu {
+  background: linear-gradient(0deg, rgb(209, 210, 210) 0%, rgb(235, 234, 234) 100%);
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.menu-opciones {
+  font-size: 1rem;
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+}
+
+/*  Footer */
+.pie {
+  background-color: #000000;
+  height: 300px;
+  padding: 11% 0;
+}
+.pie__texto {
+  color: white;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+}
+.pie__contenedeor__icons {
+  color: white;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-top: 5%;
 }
 
 .boton {
-    font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
+  width: auto;
+  padding: 3px 20px;
+  border: none;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.boton:hover {
+  background-color: antiquewhite;
+  color: black;
+  box-shadow: 2px 1px 8px rgb(172, 172, 172);
+}
+
+/* Boton tienda tarjetas */
+.boton__tienda {
+  margin: auto;
+  width: 30%;
+  height: 20px;
+  border: none;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.boton__tienda a {
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+/*Banner carrusel */
+.carrusel {
+  z-index: 10;
+}
+.carrusel__titulo {
+  font-size: 3rem;
+  color: #816C61;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+}
+
+/* carrousel - Clientes */
+.container__carrousel {
+  width: 45%;
+}
+.container__carrousel .container__imagenes__carrousel {
+  width: 700px;
+  display: flex;
+  overflow-y: auto;
+  margin: 10px;
+}
+.container__carrousel__img1 {
+  width: 200%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 300px;
+  margin: 40px 5px 0 5px;
+  box-shadow: 10px;
+  background-color: antiquewhite;
+}
+.tarjeta__img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+.tarjeta__titulo {
+  font-family: Arial, "Mulish", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: center;
+}
+.tarjeta__boton {
+  display: flex;
+  margin: auto;
+  width: 40%;
+  font-family: "Mulish", sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: black;
+  justify-content: center;
+}
+
+/* CONTACTO */
+.formulario {
+  font-family: "Mulish", sans-serif;
+}
+.formulario__imputs {
+  padding: 7px;
+  background-color: #f8f8f8;
+  border: 0.1px solid #d1d1d1;
+  font-size: 1em;
+  height: 30px;
+}
+.formulario__select {
+  background-color: #ffffff;
+  border: 0.1px solid #d1d1d1;
+  height: 30px;
+}
+.formulario__textarea {
+  background-color: #f8f8f8;
+  border: 0.1px solid #d1d1d1;
+  font-size: 1em;
+}
+
+/* BLOQUE 2 / SECCION 2 */
+.nota {
+  margin: 10% 0;
+}
+.nota__titulo {
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #816C61;
+  text-transform: uppercase;
+}
+.nota__texto {
+  font-family: "Mulish", sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: black;
+}
+
+/* CLIENTES*/
+.container__img {
+  width: 600px;
+}
+.container__img_principal {
+  width: 630px;
+  height: 600px;
+  object-fit: cover;
+}
+.container__img1 {
+  width: 545px;
+  height: 300px;
+  object-fit: cover;
+}
+.container__img2 {
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
+}
+.container__img img:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+
+/* Nosotros */
+.nosotros__integrantes {
+  width: 25%;
+  height: auto;
+  margin-top: 5%;
+}
+.nosotros__integrantes:hover {
+  opacity: 0.7;
+}
+.nosotros__integrantes .nosotros__imagen {
+  border-radius: 50%;
+}
+.nosotros__integrantes .nosotros__nombre {
+  color: #000000;
+  font-size: 1rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  margin: auto;
+}
+.nosotros__integrantes .juli {
+  animation-name: img-nosotros-animacion;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.nosotros__integrantes .juan {
+  animation-name: img-nosotros-animacion;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+.nosotros__integrantes .lisa {
+  animation-name: img-nosotros-animacion;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+@keyframes img-nosotros-animacion {
+  0% {
+    opacity: 0;
+    top: -200px;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+.titulo__curso {
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Mulish", sans-serif;
+}
+
+.card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  /* index */
+  .nota__titulo {
+    font-size: 1.7rem;
+  }
+  /*  Clientes */
+  .container__img {
+    width: 90%;
+  }
+  .container__img_galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__img1 {
+    width: 345px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .container__img2 {
+    width: 170px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .container__img_principal {
+    display: none;
+  }
+  .container__carrousel .container__imagenes__carrousel {
+    width: 370px;
+    overflow-y: auto;
+  }
+  .boton {
+    font-family: "Mulish", sans-serif;
     width: auto;
     padding: 3px 20px;
     border: none;
@@ -43,389 +330,66 @@
     color: #ffffff;
     border-radius: 15px;
     text-decoration: none;
-}
-
-.boton:hover {
+  }
+  .boton:hover {
     background-color: antiquewhite;
     color: black;
     box-shadow: 2px 1px 8px rgb(172, 172, 172);
-}
-
-/* MENU */
-.menu {
-    background: linear-gradient(0deg, rgba(209, 210, 210, 1) 0%, rgba(235, 234, 234, 1) 100%);
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-}
-
-.menu-opciones {
-    font-size: 1rem;
-    font-family: 'Mulish', sans-serif;
-    text-transform: uppercase;
-}
-
-/*Banner carrusel */
-
-.carrusel {
-    z-index: 10;
-}
-
-.carrusel__titulo {
-    font-size: 3rem;
-    color: #816C61;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-}
-
-.tarjeta {
-    width: 300px;
-    height: 300px;
-    margin: 40px 5px 0 5px;
-    box-shadow: 10px;
-    background-color: antiquewhite;
-
-}
-
-.tarjeta__img {
-    width: 300px;
-    height: 250px;
-    object-fit: cover;
-}
-
-.tarjeta__titulo {
-    font-family: Arial, 'Mulish', sans-serif;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.tarjeta__boton {
+  }
+  /* Tienda */
+  .container_tarjetas {
     display: flex;
-    margin: auto;
-    width: 40%;
-    font-family: 'Mulish', sans-serif;
-    text-decoration: none;
-    font-size: 0.8rem;
-    color: black;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+  }
 }
-
-/* BLOQUE 2 / SECCION 2 */
-
-.nota {
-    margin: 10% 0;
+@media (min-width: 600px) {
+  /* Clientes */
+  .container__img_principal {
+    display: none;
+  }
+  .container__imagenes__carrousel {
+    width: 470px;
+  }
+  /* tienda */
+  .container_tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
-.nota__titulo {
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
+@media (min-width: 1200px) {
+  .pie {
+    height: 150px;
+  }
+  .pie__texto {
+    font-size: 0.8rem;
+  }
+  .pie__contenedeor__icons {
+    margin-top: 0;
+  }
+  .map {
+    height: 400px;
+  }
+  .subtitulo-paginas {
     font-size: 2rem;
-    color: #816C61;
-    text-transform: uppercase;
-}
-
-.nota__texto {
-    font-family: 'Mulish', sans-serif;
-    font-weight: 100;
-    font-size: 1rem;
-    color: black;
-}
-
-/*  Footer */
-
-.pie {
-    background-color: #000000;
-    height: 300px;
-    padding: 11% 0;
-}
-
-.pie__texto {
-    color: white;
-    text-align: center;
-    font-family: 'Mulish', sans-serif;
-    font-size: 1rem;
-}
-
-.pie__contenedeor__icons {
-    color: white;
-    text-align: center;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-    font-size: 1.5rem;
-    margin-top: 5%;
-}
-
-
-/* CONTACTO */
-.formulario {
-    font-family: 'Mulish', sans-serif;
-
-}
-
-.formulario__imputs {
-    padding: 7px;
-    background-color: #f8f8f8;
-    border: 0.1px solid #d1d1d1;
-    font-size: 1em;
-    height: 30px;
-}
-
-.formulario__select {
-    background-color: #ffffff;
-    border: 0.1px solid #d1d1d1;
-    height: 30px;
-}
-
-.formulario__textarea {
-    background-color: #f8f8f8;
-    border: 0.1px solid #d1d1d1;
-    font-size: 1em;
-}
-
-/* CLIENTES*/
-
-.container__img {
-    width: 600px;
-}
-
-.container__img_principal {
-    width: 630px;
-    height: 600px;
-    object-fit: cover;
-}
-
-.container__img1 {
-    width: 545px;
-    height: 300px;
-    object-fit: cover;
-}
-
-.container__img2 {
-    width: 270px;
-    height: 300px;
-    object-fit: cover;
-}
-
-.container__img img:hover {
-    scale: 1.05;
-    transition: .5s;
-}
-
-.container__carrousel {
-    width: 45%;
-}
-
-.container__imagenes__carrousel {
-    width: 700px;
-    display: flex;
-    overflow-y: auto;
-    margin: 10px;
-}
-
-.container__carrousel__img1 {
-    width: 200%;
-    height: 300px;
-    object-fit: cover;
-
-}
-
-/* Nosotros */
-
-.nosotros__integrantes {
-    width: 25%;
-    height: auto;
-    margin-top: 5%;
-}
-
-.nosotros__nombre {
-    color: #000000;
-    font-size: 1rem;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-    margin: auto;
-}
-
-.nosotros__integrantes:hover {
-    opacity: .7;
-}
-
-.nosotros__imagen {
-    border-radius: 50%;
-}
-
-.juli {
-    animation-name: img-nosotros-animacion;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-    position: relative;
-    opacity: 0;
-}
-
-.juan {
-    animation-name: img-nosotros-animacion;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    position: relative;
-    opacity: 0;
-}
-
-.lisa {
-    animation-name: img-nosotros-animacion;
-    animation-duration: 2s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
-    position: relative;
-    opacity: 0;
-}
-
-@keyframes img-nosotros-animacion {
-    0% {
-        opacity: 0;
-        top: -200px;
-    }
-
-    50% {
-        top: 20px;
-    }
-
-    100% {
-        opacity: 1;
-        top: 0px;
-    }
-}
-
-/* TIENDA PAGE 5 */
-
-.titulo__curso {
-    color: black;
-    font-size: 1.5rem;
-    font-family: 'Mulish', sans-serif;
-}
-
-.boton__tienda {
-    margin: auto;
-    width: 30%;
-    height: 20px;
-    border: none;
-    background-color: black;
-    color: #ffffff;
-    border-radius: 15px;
-}
-
-.boton__tienda a {
-    text-decoration: none;
-    font-family: 'Mulish', sans-serif;
-    font-size: 0.8rem;
-    color: #ffffff;
-}
-
-.card__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-@media (max-width: 600px) {
-    .nota__titulo {
-        font-size: 1.7rem;
-    }
-   /*  Clientes */
-.container__img{
-    width: 90%;
- 
-}
-.container__img_galeria{
+  }
+  /* Clientes */
+  .container__img_principal {
+    display: block;
+  }
+  .container__imagenes__carrousel {
+    width: 670px;
+  }
+  /* tienda */
+  .container_tarjetas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-.container__img_principal{
-   display: none;
-}
-.container__img1 {
-    width: 345px;
-    height: 300px;
-    object-fit: cover;
+  }
 }
 
-.container__img2 {
-    width: 170px;
-    height: 300px;
-    object-fit: cover;
-}
-.container__imagenes__carrousel {
-    width: 370px;
-}
-/* Tienda */
-.container_tarjetas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-}
-
-@media (min-width:600px) {
-    /* Clientes */
-    .container__img_principal{
-        display: none;
-    }
-    .container__imagenes__carrousel {
-        width: 470px;
-    }
-
-    /* tienda */
-
-    .container_tarjetas{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-}
-    @media (min-width: 1200px) {
-
-        .pie {
-            height: 150px;
-        }
-    
-        .pie__texto {
-            font-size: 0.8rem;
-        }
-    
-        .pie__contenedeor__icons {
-            margin-top: 0;
-        }
-    
-        .map {
-            height: 400px;
-        }
-    
-        .subtitulo-paginas {
-            font-size: 2rem;
-    
-        }
-        /* Clientes */
-        .container__img_principal{
-            display: block;
-        }
-        .container__imagenes__carrousel {
-            width: 670px;
-        }
-
-     /* tienda */
-    
-    .container_tarjetas{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-    }
-
-
+/*# sourceMappingURL=style.css.map */

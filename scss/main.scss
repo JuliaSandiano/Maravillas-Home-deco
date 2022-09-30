@@ -1,0 +1,20 @@
+@import "./utils//variables.scss";
+
+@import "./base/reset";
+@import "./base/base";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./components/botones";
+@import "./components/carrouseles";
+@import "./components/tarjetas";
+@import "./components/formulario";
+
+@import "./pages/idex";
+@import "./pages/clientes";
+@import "./pages/nosotros";
+@import "./pages/tienda";
+
+@import "./layout/mediaqueries";
+

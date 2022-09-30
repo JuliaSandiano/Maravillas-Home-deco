@@ -1,0 +1,18 @@
+/* BLOQUE 2 / SECCION 2 */
+
+.nota {
+    margin: 10% 0;
+&__titulo{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #816C61;
+    text-transform: uppercase;
+}
+&__texto{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: black; 
+}
+}

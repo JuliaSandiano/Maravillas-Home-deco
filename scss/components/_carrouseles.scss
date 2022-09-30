@@ -1,0 +1,29 @@
+/*Banner carrusel */
+
+.carrusel {
+    z-index: 10;
+&__titulo{
+    font-size: 3rem;
+    color: #816C61;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+}
+}
+
+/* carrousel - Clientes */
+.container__carrousel {
+    width: 45%;
+
+    .container__imagenes__carrousel {
+        width: 700px;
+        display: flex;
+        overflow-y: auto;
+        margin: 10px;
+    }
+    &__img1 {
+        width: 200%;
+        height: 300px;
+        object-fit: cover;
+    
+    }
+}

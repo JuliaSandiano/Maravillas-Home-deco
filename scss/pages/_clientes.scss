@@ -1,0 +1,28 @@
+/* CLIENTES*/
+
+.container__img {
+    width: 600px;
+
+    &_principal {
+        width: 630px;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    &1 {
+        width: 545px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    &2 {
+        width: 270px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    img:hover {
+        scale: 1.05;
+    transition: .5s;
+    }
+}

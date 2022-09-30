@@ -1,0 +1,131 @@
+@media (max-width: 600px) {
+
+    /* index */
+    .nota__titulo {
+        font-size: 1.7rem;
+    }
+
+    /*  Clientes */
+    .container__img {
+        width: 90%;
+
+        &_galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        &1 {
+            width: 345px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        &2 {
+            width: 170px;
+            height: 300px;
+            object-fit: cover;
+        }
+        &_principal {
+            display: none;
+        }
+
+    
+    }
+.container__carrousel{
+    .container__imagenes__carrousel {
+        width: 370px;
+        overflow-y: auto;
+    }
+}
+   
+
+    .boton {
+        font-family: "Mulish", sans-serif;
+        width: auto;
+        padding: 3px 20px;
+        border: none;
+        background-color: black;
+        color: #ffffff;
+        border-radius: 15px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: antiquewhite;
+            color: black;
+            box-shadow: 2px 1px 8px rgb(172, 172, 172);
+        }
+    }
+
+    /* Tienda */
+    .container_tarjetas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:600px) {
+
+    /* Clientes */
+    .container__img_principal {
+        display: none;
+    }
+
+    .container__imagenes__carrousel {
+        width: 470px;
+    }
+
+    /* tienda */
+
+    .container_tarjetas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .pie {
+        height: 150px;
+
+        &__texto {
+            font-size: 0.8rem;
+        }
+
+        &__contenedeor__icons {
+            margin-top: 0;
+        }
+    }
+
+    .map {
+        height: 400px;
+    }
+
+    .subtitulo-paginas {
+        font-size: 2rem;
+
+    }
+
+    /* Clientes */
+    .container__img_principal {
+        display: block;
+    }
+
+    .container__imagenes__carrousel {
+        width: 670px;
+    }
+
+    /* tienda */
+
+    .container_tarjetas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
