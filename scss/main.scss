@@ -1,4 +1,4 @@
-@import "./utils//variables.scss";
+@import "./utils/mixins.scss";
 
 @import "./base/reset";
 @import "./base/base";
@@ -12,9 +12,7 @@
 @import "./components/formulario";
 
 @import "./pages/idex";
+@import "./pages/contacto";
 @import "./pages/clientes";
 @import "./pages/nosotros";
 @import "./pages/tienda";
-
-@import "./layout/mediaqueries";
-

@@ -4,18 +4,35 @@
     background-color: #000000;
     height: 300px;
     padding: 11% 0;
-&__texto{
-    color: white;
-    text-align: center;
-    font-family: 'Mulish', sans-serif;
-    font-size: 1rem;
-}
-&__contenedeor__icons {
-    color: white;
-    text-align: center;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-    font-size: 1.5rem;
-    margin-top: 5%;
-}
+
+    &__texto {
+        color: white;
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+        font-size: 1rem;
+    }
+
+    &__contenedeor__icons {
+        color: white;
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+        font-size: 1.5rem;
+
+        @include mobile-lg {
+            margin-top: 5%;
+        }
+    }
+
+    @include desktop {
+        height: 150px;
+
+        &__texto {
+            font-size: 0.8rem;
+        }
+
+        &__contenedeor__icons {
+            margin-top: 0;
+        }
+    }
 }

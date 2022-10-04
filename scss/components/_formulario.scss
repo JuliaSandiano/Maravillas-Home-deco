@@ -1,21 +1,24 @@
 /* CONTACTO */
 .formulario {
     font-family: 'Mulish', sans-serif;
-&__imputs {
-    padding: 7px;
-    background-color: #f8f8f8;
-    border: 0.1px solid #d1d1d1;
-    font-size: 1em;
-    height: 30px;
-}
-&__select {
-    background-color: #ffffff;
-    border: 0.1px solid #d1d1d1;
-    height: 30px;
-}
-&__textarea {
-    background-color: #f8f8f8;
-    border: 0.1px solid #d1d1d1;
-    font-size: 1em;
-}
+
+    &__imputs {
+        padding: 7px;
+        background-color: #f8f8f8;
+        border: 0.1px solid #d1d1d1;
+        font-size: 1em;
+        height: 30px;
+    }
+
+    &__select {
+        background-color: #ffffff;
+        border: 0.1px solid #d1d1d1;
+        height: 30px;
+    }
+
+    &__textarea {
+        background-color: #f8f8f8;
+        border: 0.1px solid #d1d1d1;
+        font-size: 1em;
+    }
 }

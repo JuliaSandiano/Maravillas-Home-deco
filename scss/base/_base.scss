@@ -4,19 +4,25 @@
     text-align: center;
     width: 100%;
     height: auto;
-h1{
-    color: #816C61;
-    font-size: 2rem;
-    font-family: 'Mulish', sans-serif;
-    text-transform: uppercase;
-    font-weight: 800; 
+
+    h1 {
+        color: #816C61;
+        font-size: 2rem;
+        font-family: 'Mulish', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
 }
-}
+
 .subtitulo-paginas {
     color: black;
     font-size: 1.5rem;
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
+
+    @include desktop {
+        font-size: 2rem;
+    }
 }
 
 .texto-paginas {

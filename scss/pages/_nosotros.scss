@@ -20,6 +20,7 @@
         font-weight: 800;
         margin: auto;
     }
+
     .juli {
         animation-name: img-nosotros-animacion;
         animation-duration: 2s;
@@ -28,7 +29,7 @@
         position: relative;
         opacity: 0;
     }
-    
+
     .juan {
         animation-name: img-nosotros-animacion;
         animation-duration: 2s;
@@ -37,7 +38,7 @@
         position: relative;
         opacity: 0;
     }
-    
+
     .lisa {
         animation-name: img-nosotros-animacion;
         animation-duration: 2s;
@@ -46,21 +47,20 @@
         position: relative;
         opacity: 0;
     }
-    
+
     @keyframes img-nosotros-animacion {
         0% {
             opacity: 0;
             top: -200px;
         }
-    
+
         50% {
             top: 20px;
         }
-    
+
         100% {
             opacity: 1;
             top: 0px;
         }
     }
 }
-

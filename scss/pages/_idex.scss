@@ -2,17 +2,23 @@
 
 .nota {
     margin: 10% 0;
-&__titulo{
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-    font-size: 2rem;
-    color: #816C61;
-    text-transform: uppercase;
-}
-&__texto{
-    font-family: 'Mulish', sans-serif;
-    font-weight: 100;
-    font-size: 1rem;
-    color: black; 
-}
+
+    &__titulo {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+        font-size: 2rem;
+        color: #816C61;
+        text-transform: uppercase;
+
+        @include mobile-lg {
+            font-size: 1.7rem;
+        }
+    }
+
+    &__texto {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+        color: black;
+    }
 }

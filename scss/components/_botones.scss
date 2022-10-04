@@ -1,3 +1,4 @@
+/* Boton */
 .boton {
     font-family: 'Mulish', sans-serif;
     width: auto;
@@ -12,6 +13,23 @@
         background-color: antiquewhite;
         color: black;
         box-shadow: 2px 1px 8px rgb(172, 172, 172);
+    }
+
+    @include mobile-lg {
+        font-family: "Mulish", sans-serif;
+        width: auto;
+        padding: 3px 20px;
+        border: none;
+        background-color: black;
+        color: #ffffff;
+        border-radius: 15px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: antiquewhite;
+            color: black;
+            box-shadow: 2px 1px 8px rgb(172, 172, 172);
+        }
     }
 }
 

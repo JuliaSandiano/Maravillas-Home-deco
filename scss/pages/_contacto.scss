@@ -1,0 +1,13 @@
+.map {
+    @include mobile-lg {
+        height: 388px;
+    }
+
+    @include tableta {
+        height: 300px;
+    }
+
+    @include desktop {
+        height: 400px;
+    }
+}

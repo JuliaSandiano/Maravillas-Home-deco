@@ -1,0 +1,23 @@
+@mixin mobile-lg {
+    @media (max-width: 600px) {
+        @content
+    }
+}
+
+;
+
+@mixin tableta {
+    @media (min-width: 600px) {
+        @content
+    }
+}
+
+;
+
+@mixin desktop {
+    @media (min-width: 1200px) {
+        @content
+    }
+}
+
+;

@@ -3,6 +3,15 @@
 .container__img {
     width: 600px;
 
+
+    &_galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
     &_principal {
         width: 630px;
         height: 600px;
@@ -23,6 +32,47 @@
 
     img:hover {
         scale: 1.05;
-    transition: .5s;
+        transition: .5s;
+    }
+
+    /* Mixins */
+    @include mobile-lg {
+        width: 90%;
+
+        &_galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        &1 {
+            width: 345px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        &2 {
+            width: 170px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        &_principal {
+            display: none;
+        }
+    }
+
+    @include tableta {
+        &_principal {
+            display: none;
+        }
+    }
+
+    @include desktop {
+        &_principal {
+            display: block;
+        }
     }
 }

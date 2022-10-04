@@ -2,12 +2,13 @@
 
 .carrusel {
     z-index: 10;
-&__titulo{
-    font-size: 3rem;
-    color: #816C61;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-}
+
+    &__titulo {
+        font-size: 3rem;
+        color: #816C61;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+    }
 }
 
 /* carrousel - Clientes */
@@ -19,11 +20,25 @@
         display: flex;
         overflow-y: auto;
         margin: 10px;
+
+        @include mobile-lg {
+            width: 370px;
+            overflow-y: auto;
+        }
+
+        @include tableta {
+            width: 470px;
+        }
+
+        @include desktop {
+            width: 670px;
+        }
     }
+
     &__img1 {
         width: 200%;
         height: 300px;
         object-fit: cover;
-    
+
     }
 }
